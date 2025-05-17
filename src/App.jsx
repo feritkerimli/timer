@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       <Menu/>
       <Routes>
-        <Route path='/clock' element={<Clock/>}/>
-        <Route path='/stopwatch' element={<Stopwatch/>}/>
-        <Route path='/timer' element={<Timer/>}/>
+        <Route path='/timer/clock' element={<Clock/>}/>
+        <Route path='/timer/stopwatch' element={<Stopwatch/>}/>
+        <Route path='/timer/Timer' element={<Timer/>}/>
       </Routes>
     </div>
   );

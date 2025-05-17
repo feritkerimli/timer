@@ -3,13 +3,13 @@ export default function Menu() {
   return (
     <div className="Menu">
         <div className="nav">
-          <NavLink  to="/clock">
+          <NavLink  to="/timer/clock">
             Clock
           </NavLink>
-          <NavLink  to="/stopwatch">
+          <NavLink  to="/timer/stopwatch">
             Stopwatch
           </NavLink>
-          <NavLink  to="/timer">
+          <NavLink  to="/timer/Timer">
             Timer
           </NavLink>
         </div>
